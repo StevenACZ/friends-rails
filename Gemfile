@@ -22,6 +22,12 @@ group :development do
   gem 'listen', '~> 3.2'
   gem 'spring'
   gem 'spring-watcher-listen', '~> 2.0.0'
+  gem 'sqlite3', '~> 1.4'
+end
+
+group :production do 
+  gem 'pg', '~> 0.18.4'
+  # gem 'rails_12factor', '0.0.2'
 end
 
 group :test do
